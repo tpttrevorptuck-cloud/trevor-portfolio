@@ -110,7 +110,7 @@ const metrics = [
                   <div className="rounded-2xl border border-slate-200 p-5">
                     <p className="font-medium text-slate-900">Insight</p>
                     <p className="mt-2 leading-relaxed">
-                      The biggest wins came from (1) simplifying the “next action” and (2) making follow-up automatic—
+                      The biggest wins came from (1) simplifying the “next action” and (2) making follow-up automatic
                       so consistency didn’t depend on memory.
                     </p>
                   </div>

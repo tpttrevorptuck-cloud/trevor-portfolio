@@ -110,7 +110,7 @@ const metrics = [
                   <div className="rounded-2xl border border-slate-200 p-5">
                     <p className="font-medium text-slate-900">Insight</p>
                     <p className="mt-2 leading-relaxed">
-                      Retention increases when people know what to expect, feel heard, and see consistent follow-through—
+                      Retention increases when people know what to expect, feel heard, and see consistent follow-through
                       even when resources are limited.
                     </p>
                   </div>
