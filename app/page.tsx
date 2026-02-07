@@ -16,7 +16,7 @@ export default function Home() {
           </h1>
 
           <p className="max-w-3xl text-lg leading-relaxed text-slate-700">
-            I turn complex work into clear journeys, onboarding, lifecycle messaging, and campaigns that improve{" "}
+            I turn complex work into clear journeys through onboarding, lifecycle messaging, and campaigns that improve{" "}
             <span className="font-medium text-slate-900">adoption</span>,{" "}
             <span className="font-medium text-slate-900">retention</span>, and{" "}
             <span className="font-medium text-slate-900">engagement</span>. I bring strong writing and the systems
@@ -82,7 +82,7 @@ export default function Home() {
               href="/work"
               className="text-sm font-medium text-slate-700 hover:text-slate-900"
             >
-              View all →
+              View all
             </a>
           </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
                 Digital campaigns and donor storytelling that increased engagement.
               </p>
               <p className="mt-4 text-sm font-medium text-slate-700 group-hover:text-slate-900">
-                Read case study →
+                Read case study
               </p>
             </a>
 
@@ -111,7 +111,7 @@ export default function Home() {
                 Weekly communications systems supporting retention and coordination.
               </p>
               <p className="mt-4 text-sm font-medium text-slate-700 group-hover:text-slate-900">
-                Read case study →
+                Read case study
               </p>
             </a>
 
@@ -125,7 +125,55 @@ export default function Home() {
                 Onboarding and automation that improved adoption and responsiveness.
               </p>
               <p className="mt-4 text-sm font-medium text-slate-700 group-hover:text-slate-900">
-                Read case study →
+                Read case study
+              </p>
+            </a>
+          </div>
+        </section>
+
+        {/* FEATURED WRITING */}
+        <section className="mt-14">
+          <div className="flex items-end justify-between gap-4">
+            <div>
+              <h2 className="text-2xl font-semibold">Featured writing</h2>
+              <p className="mt-2 text-slate-700">
+                Donor-facing and stakeholder materials. More samples are available on request.
+              </p>
+            </div>
+            <a
+              href="/writing"
+              className="text-sm font-medium text-slate-700 hover:text-slate-900"
+            >
+              View all
+            </a>
+          </div>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <a
+              href="/WritingSample_DonorEventPack.pdf"
+              className="group rounded-2xl border border-slate-200 p-6 shadow-sm hover:bg-slate-50"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-600">PDF</p>
+              <h3 className="mt-2 text-lg font-semibold">Donor Event Pack</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-700">
+                A donor event email and communications pack designed for clarity, attendance, and follow-through.
+              </p>
+              <p className="mt-4 text-sm font-medium text-slate-700 group-hover:text-slate-900">
+                Open sample
+              </p>
+            </a>
+
+            <a
+              href="/Impact_Brief_1000Gretas.pdf"
+              className="group rounded-2xl border border-slate-200 p-6 shadow-sm hover:bg-slate-50"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wide text-slate-600">PDF</p>
+              <h3 className="mt-2 text-lg font-semibold">Impact Brief: 1000 Gretas</h3>
+              <p className="mt-2 text-sm leading-relaxed text-slate-700">
+                Campaign narrative, strategy, and outcomes summarized in a concise impact brief.
+              </p>
+              <p className="mt-4 text-sm font-medium text-slate-700 group-hover:text-slate-900">
+                Open sample
               </p>
             </a>
           </div>
@@ -135,8 +183,8 @@ export default function Home() {
         <section className="mt-14 rounded-2xl bg-slate-50 p-8">
           <h2 className="text-2xl font-semibold">How I work</h2>
           <p className="mt-3 max-w-3xl text-slate-700 leading-relaxed">
-            I’m strongest in roles at the intersection of communications, engagement, and systems, where the goal
-            isn’t just great content, but measurable outcomes and repeatable execution.
+            I’m strongest in roles at the intersection of communications, engagement, and systems. The goal is not just
+            great content. It is measurable outcomes and repeatable execution.
           </p>
 
           <ul className="mt-6 grid gap-4 text-slate-700 sm:grid-cols-2">
@@ -149,7 +197,7 @@ export default function Home() {
             <li className="rounded-2xl border border-slate-200 bg-white p-5">
               <p className="font-medium text-slate-900">Lifecycle thinking</p>
               <p className="mt-2 text-sm leading-relaxed">
-                Journeys that guide people to the next action — onboarding, nurture, and retention.
+                Journeys that guide people to the next action through onboarding, nurture, and retention.
               </p>
             </li>
             <li className="rounded-2xl border border-slate-200 bg-white p-5">
